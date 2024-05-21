@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 22px;
+}
+
+/* Navbar */
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+
+.bold{
+    font-size: 25px;
+
+}
+
+li{
+    padding: 5px;
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: 0.1s;
+}
+
+section{
+    min-height: 100vh;  /* vh-take full height of the display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 18px;
+}
+
+/* About section */
+
+.about img{
+    width: 25rem;  /* 250px */
+    height: 25rem;
+    border-radius: 50px;
+}
+
+
+/* Project section */
+
+.card{
+    height: 400px;
+}
+
+.card img{
+    height: 200px;
+
+
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+/* Contact */
+
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2),-1px 2px 5px rgba(0,0,0,.05);
+    border-radius: 30px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+    bottom: 0;
+    width: 100%;
+}
